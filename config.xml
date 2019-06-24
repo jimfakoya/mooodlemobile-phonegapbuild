@@ -2,14 +2,14 @@
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
         xmlns:android = "http://schemas.android.com/apk/res/android"
-        id        = "com.moodle.moodlemobile"
+        id        = "org.edutechportal.mobileclass"
         versionCode = "200"
         android-versionCode="200"
         version   = "2.0.0">
     <name>Mobile Class</name>
 
     <description>
-        Take your leaning with you - every where you go. Participate in course activities including group discussions, self learning and smart quizzes. 
+        Put your classroom in your pocket! Interact with your content and analyze your learning on the go! On the Mobile Class App, you take learning with you everywhere. Engage your course facilitators and other course members in seamless group discussions. Share field trip findings, take smart quizzes and get course notifications on your School Mobile Class App. 
     </description>
 
     <author href="edutechportal.org" email="info@edutechportal.com">
@@ -171,7 +171,7 @@
     </edit-config>
 
     <!-- See MOBILE-892 -->
-    <preference name="permissions" value="none"/>
+    <preference name="permissions" value="true"/>
 
     <edit-config target="NSCameraUsageDescription" file="*-Info.plist" mode="merge">
         <string>We need camera access to take pictures so you can attach them as part of your submissions.</string>
